@@ -68,6 +68,7 @@
 		3- FP & OOP in javascript
 		4- 'this' keyword
 		5- prototypes
+		
 		6- ES6 New syntax
 		7- ES modules
 		8- Concurrency Model using EventLoop
