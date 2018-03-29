@@ -1,0 +1,22 @@
+
+
+
+ECMAScript-2015 or ES6
+------------------------
+
+  New-syntax
+  ------------
+
+  1. let & const keywords with block-scope
+  2. function with default & rest param
+  3. string interplation
+  4. class-syntax ( New way of OOP)
+  5. obj-literal enhancements
+  6. destructuring
+  7. spread operator
+  8. symbol data-type ( new-primitive )
+  9. for-of-loop
+  10. custom iterable objects
+  11. new collections ==> set, map
+  12. arrow-function
+

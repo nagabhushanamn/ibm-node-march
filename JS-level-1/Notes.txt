@@ -71,6 +71,7 @@
 		
 		6- ES6 New syntax
 		7- ES modules
+		
 		8- Concurrency Model using EventLoop
 		9- Async APIs ( Promise , RxJS )
 		
