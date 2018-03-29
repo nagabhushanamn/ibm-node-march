@@ -20,3 +20,10 @@ ECMAScript-2015 or ES6
   11. new collections ==> set, map
   12. arrow-function
 
+  ------------------------------------------
+
+  13. JS modules  & NPM
+  14. concurreny model using event Loop
+
+  ------------------------------------------
+

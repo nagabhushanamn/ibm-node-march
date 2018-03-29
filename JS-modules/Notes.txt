@@ -1,0 +1,130 @@
+
+
+
+imp-note :
+=> from beginning .js-lang is not module based lang
+
+
+
+problems in .js-developement. without module standards  & loaders
+
+    => global-naming collisions
+
+        soln: using self-executable function pattern
+
+    => loading dependency modules in order very difficult    ( manual ) 
+
+
+
+solutions
+
+  ==> using good module standards & loaders
+
+
+from third-parties
+------------------------------
+
+   - AMD ( Async Module Definition ) spec
+
+        - define()
+        - require()
+
+        AMD-loader(s)  ==> Require.js, .....
+
+    - commonJS  spec
+    - UMD
+
+
+from ECMAScript 
+-----------------------------------
+
+    - ES Modules   ( from ES6 )
+
+
+
+
+    commonJS  spec
+    --------------------------------------------
+
+    note : simpler than AMD standard
+
+    rules from commonJS spec
+
+    => by default every .js-file is module
+    => all variables & functions in a .js file are private to that module
+    => to abstract/export any member to other modules , use 'module.exports'
+    => to import/require , use 'require()'
+    => can group related modules into packages with description file ( package.json)
+
+
+    imp-note :
+
+    Node.js runtime , already implemented this standard as default module standard. but not browser 
+
+   popular terms:
+    commonJS-module ==> node_module
+    commonJS-package ==> node_package
+
+-------------------------------------------------------------------
+     
+
+
+NPM ( Node Package Manager )
+------------------------------
+
+    -> CLI tool runs on Node.js
+
+    why do we need ?
+
+    -> to publish/install javascript-pakages from 'NPM repository'
+
+
+-------------------------------------------------------------------
+     
+
+
+how to run commonJS modules in browser ?
+
+    => browserify i.w commonJS-modules to browser-use
+
+    how ?
+
+    tools
+
+      --> browserify
+      or
+      --> webpack    
+
+-------------------------------------------------------------------
+     
+
+
+
+    - ES Modules   ( from ES6 )
+    -----------------------------
+
+    rules
+    ---------
+
+    => by default every .js-file is module
+    => all variables & functions in a .js file are private to that module
+    => to abstract/export any member to other modules , use 'export' keyword
+    => to import/require , use 'import' keyword
+    => can group related modules into packages with description file ( package.json)
+
+
+    warning :
+
+       ==> neither browser  or Node.js supprorts this module standard
+
+     need to transpile
+
+      ES-modules ===> commonJS-modules  , to run Node.js
+
+      how ?
+
+        using 'babel'
+                  
+
+
+
