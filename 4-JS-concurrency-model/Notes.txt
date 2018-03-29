@@ -1,0 +1,36 @@
+
+
+
+-js-lang
+
+    ==> all IO operations are 'non-blocking'
+    ==> single-threaded process, we can execute concurrent actions
+
+
+    ---------------------------------------------------------------
+
+
+    browser  e.g chrome
+
+       1. JavaScript Engine ( v8 )   : based on ECMAScript spec
+
+            a. single-call-stack      => to execute contexts 
+            b. heap                   => to hold objects
+
+      2. Web APIs ( i.e DOM, XHR,Timer, HTML5 new APIs )  : based on w3c reccommendations
+
+      3. Event-Queue
+
+      4. Event-Loop
+
+      ---------------------------------------------------------------
+
+      ref : https://developer.mozilla.org/bm/docs/Web/JavaScript/EventLoop
+
+      ref : http://latentflip.com/loupe
+
+      ---------------------------------------------------------------
+
+
+
+
