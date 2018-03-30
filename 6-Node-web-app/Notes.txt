@@ -1,0 +1,26 @@
+
+
+
+How to develope web-application on Node.js runtime ?
+
+  ==> using 'http' package ( low level package )
+
+ we need  Node.js web-frameworks to develope real-time web applicatio.
+
+ ref : http://nodeframework.com/
+
+
+
+  Foundation Framework for Node.js web application:
+
+
+  ==> Express : http://expressjs.com/
+
+  
+
+
+
+
+    
+
+

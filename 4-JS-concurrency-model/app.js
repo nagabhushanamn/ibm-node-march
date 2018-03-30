@@ -114,7 +114,7 @@ console.log('cont.. with other work...')
 
 function longRunning(){
     var i=0;
-    while(i<10){
+    while(i<1000){
         console.log('long....');
         i++;
     }
