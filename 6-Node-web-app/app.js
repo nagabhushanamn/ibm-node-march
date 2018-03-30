@@ -1,5 +1,8 @@
 
 const express = require('express');
+// const logger = require('./middlewares/logger');
+const logger = require('morgan');
+
 const app = express();
 
 //--------------------------------------------------------------------------------------
@@ -42,10 +45,10 @@ const app = express();
 //     resp.sendFile(__dirname + '/public/css/bootstrap.css');
 // });
 
+app.use(logger('dev'));
 app.use(express.static('public'));
-
 app.get("/menu", function (req, resp) {
-    let menu = ['anna sambar', 'set dosa', "biryani"];
+    let menu = ["biryani"];
     resp.json(menu);
 });
 

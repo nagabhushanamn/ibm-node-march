@@ -1,0 +1,35 @@
+
+
+PM ( Product Management )
+---------------------------
+
+    - addProduct
+    - view
+    - delete
+    - edit
+   
+
+    server-side  ( REST- api )
+    -----------------------------
+
+    data-source     : SQL or NoSQL ( MongoDB )
+    server-runtime  : Node.js
+    Framework       : ExpressJS
+
+    client-side
+    ------------------------------
+
+    browser-side    : Angular or React or View Lib  
+
+
+    ----------------------------------------------------------
+
+    application ==> Object Model
+    
+    SQL         ==> Relational model
+    NoSQL       ==> Document model     
+
+    ----------------------------------------------------------
+
+
+    ODM  Framework  ==>  e.g mongoose
